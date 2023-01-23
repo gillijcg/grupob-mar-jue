@@ -85,6 +85,27 @@ a {
     content: ' |';
 }
 
+.logo_menu_search {
+    position: relative;
+}
+.logo_menu_search input {
+    /* background-color: red; */
+    height: 30px;
+    outline: none;
+    border: none;
+    background-color: #e4e1e1;
+}
+.logo_menu_search button {
+    position: absolute;
+    height: 28px;
+    width: 30px;
+    border: none;
+    right: 1px;
+    bottom: 1px;
+    border: none;
+    background-color: transparent;
+}
+
 /*css de secciones*/
 .secciones {
     display: flex;
@@ -100,7 +121,7 @@ a {
     margin: 0 10px;
 }
 
-/*.sofiacontainer {
+/* .sofiacontainer {
     position: relative;
 } */
 .sofiacontainer {
